@@ -1,0 +1,67 @@
+body {
+    background-image: url(retro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    color: rgb(57, 189, 57);
+    text-align: center;
+    font-family: "Press Start 2P", "consolas", serif;
+    font-size: 50px;
+    margin-top: 100px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(14, 69, 21);
+}
+p{
+    color: rgb(169, 239, 64);
+    font-family: "consolas",serif;
+    font-size: 30px;
+    margin-top: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(63, 107, 13);
+}
+pre{
+    color: rgb(73, 78, 66);
+    font-family: "consolas",serif;
+    font-size: 30px;
+    margin-top: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(81, 105, 54);
+    text-align: left,center;
+}
+.Remark{
+    color: rgb(160, 194, 112);
+    font-family: "consolas",serif;
+    font-size: 30px;
+    margin-top: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(81, 105, 54);
+    text-align: center;
+}
+nav{
+    list-style-type: none;
+    margin: 2px;
+    padding: 2px;
+    list-style-position: inside;
+    text-align: center;
+}
+nav li{
+    display: inline;
+    margin: 0 15px;
+
+}
+nav a{
+
+    color: rgb(52, 255, 75);
+    text-decoration: underline;
+    font-family: "Press Start 2P", "consolas", serif;
+    font-size: 20px;
+    text-align: center;
+}
+nav a:hover{
+    text-decoration: underline;
+    text-align-last: center;
+}
